@@ -27,7 +27,7 @@ class WeatherServiceTest {
     @BeforeEach
     void setUp() {
         MockitoAnnotations.openMocks(this);
-        weatherService.weatherApiKey = "dummyApiKey"; // Set a dummy API key for testing
+        //weatherService.weatherApiKey = "dummyApiKey"; // Set a dummy API key for testing
     }
 
     @Test

@@ -13,7 +13,7 @@ import org.springframework.web.client.RestTemplate;
 public class WeatherService {
 
     @Value("${weather.api.key}")
-    public String weatherApiKey;
+    private String weatherApiKey;
 
     private final RestTemplate restTemplate = new RestTemplate();
 
