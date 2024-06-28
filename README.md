@@ -6,12 +6,12 @@ This project is a weather API project that communicates with the OpenWeatherMap 
 
 ![logo](https://github.com/bertuginal/Weather-API/assets/73167951/114fcc84-e7f9-42b6-8721-043993cc8fe0)
 
----
 
 ## 🔎 Overview
 The Weather API service is designed to retrieve the required weather data by OpenWeatherMap by processing requests from users. Spring Boot (Spring Web, Devtools, Lombok) technology and Maven library were used in this project.
 
----
+
+&nbsp; 
 
 ## 🚀 How does it work?
 ❶ To access OpenWeatherMap's servers and retrieve weather data, a free Weather API Key is created by logging in to the OpenWeatherMap page.
@@ -22,7 +22,8 @@ The Weather API service is designed to retrieve the required weather data by Ope
   
 ❹ From the request sent to OpenWeatherMap, the weather forecast, temperature and description are responded according to the coordinates specified by the user.
 
----
+
+&nbsp; 
 
 ## 🛠️ Built With
 
@@ -33,7 +34,8 @@ The Weather API service is designed to retrieve the required weather data by Ope
 
 <b> ✔️ JDK-21 was used in Java and Spring Web, Devtools, Lombok was used in Spring Boot. </b>
 
----
+
+&nbsp; 
 
 ## ↓ Installation ↓
 
@@ -56,7 +58,9 @@ _Below is an example of how you can instruct your audience on installing and set
    const API_KEY = 'ENTER YOUR API';
    ```
    
----
+
+&nbsp; 
+
 <!-- FEATURES -->
 ## ✨ Features
 
@@ -67,7 +71,8 @@ _Below is an example of how you can instruct your audience on installing and set
 
 ✔️ See the [open issues](https://github.com/bertuginal/Weather-API/issues) for a full list of proposed features (and known issues)!
    
----
+
+&nbsp; 
 
 <!-- CONTRIBUTING -->
 ## 🌱 Contributing
@@ -87,7 +92,8 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 ❺ Open a Pull Request
    
----
+
+&nbsp; 
 
 <!-- CONTACT -->
 ## ☎️ Contact
