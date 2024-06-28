@@ -5,36 +5,46 @@
 
 This project is a weather API project that communicates with the OpenWeatherMap API based on user input. The purpose of this service is to display daily, weekly and monthly weather forecasts based on country and city information.
 
-## Overview
+---
+
+## 🔎 Overview
 The Weather API service is designed to retrieve the required weather data by OpenWeatherMap by processing requests from users. Spring Boot (Spring Web, Devtools, Lombok) technology and Maven library were used in this project.
 
-## How does it work?
-* To access OpenWeatherMap's servers and retrieve weather data, a free Weather API Key is created by logging in to the OpenWeatherMap page.
-  
-* In order to learn the weather conditions of a particular place, country code and city name information is obtained from the user and latitude and longitude coordinates, called geo codes, are determined.
-  
-* Requests are sent back to OpenWeatherMap with the Rest Template class, which makes it easier for us to send requests back according to the specified latitude and longitude coordinates.
-  
-* From the request sent to OpenWeatherMap, the weather forecast, temperature and description are responded according to the coordinates specified by the user.
+---
 
-## Built With
+## 🚀 How does it work?
+❶ To access OpenWeatherMap's servers and retrieve weather data, a free Weather API Key is created by logging in to the OpenWeatherMap page.
+  
+❷ In order to learn the weather conditions of a particular place, country code and city name information is obtained from the user and latitude and longitude coordinates, called geo codes, are determined.
+
+❸ Requests are sent back to OpenWeatherMap with the Rest Template class, which makes it easier for us to send requests back according to the specified latitude and longitude coordinates.
+  
+❹ From the request sent to OpenWeatherMap, the weather forecast, temperature and description are responded according to the coordinates specified by the user.
+
+---
+
+## 🛠️ Built With
 
 * [![Java][Java-logo]][Java-url]
 * [![Spring][Spring-logo]][Spring-url]
 * [![Maven][Maven-logo]][Maven-url]
 * [![Rest][Rest-logo]][Rest-url]
 
-<b> JDK-21 was used in Java and Spring Web, Devtools, Lombok was used in Spring Boot. </b>
+<b> ✔️ JDK-21 was used in Java and Spring Web, Devtools, Lombok was used in Spring Boot. </b>
 
+---
 
-### Installation
+## ↓ Installation ↓
 
 _Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
 
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
+1. Get a free API Key at
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   https://home.openweathermap.org/api_keys
+   ```
+2. Clone the my repo
+   ```sh
+   git clone https://github.com/bertuginal/Weather-API.git
    ```
 3. Install NPM packages
    ```sh
@@ -44,92 +54,45 @@ _Below is an example of how you can instruct your audience on installing and set
    ```js
    const API_KEY = 'ENTER YOUR API';
    ```
+   
+---
+<!-- FEATURES -->
+## ✨ Features
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+- [x] Users can input a country and city to get the current weather and forecasts.
+- [x] The service can provide daily, weekly, and monthly weather forecasts based on user preferences.
+- [x] Robust error handling ensures graceful degradation in case of issues with external API communication or invalid user inputs.
+- [x] Comprehensive validation of input parameters to ensure data integrity and reliability.
 
-
-
-<!-- USAGE EXAMPLES -->
-## Usage
-
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
-
-_For more examples, please refer to the [Documentation](https://example.com)_
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- ROADMAP -->
-## Roadmap
-
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
-    - [ ] Chinese
-    - [ ] Spanish
-
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+✔️ See the [open issues](https://github.com/bertuginal/Weather-API/issues) for a full list of proposed features (and known issues)!
+   
+---
 
 <!-- CONTRIBUTING -->
-## Contributing
+## 🌱 Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+⭐ Don't forget to give the project a star! Thanks again! ⭐
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
 3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
-
-<!-- LICENSE -->
-## License
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
+   
+---
 
 <!-- CONTACT -->
-## Contact
+## ☎️ Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - email@example.com
+📧 E-mail: [bertuginal@yahoo.com](mailto:bertuginal@yahoo.com)
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+📱 Mobile Phone: [(+90) 507 038 33 23](mailto:+905070383323)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+📋 Project Link: [https://github.com/bertuginal/Weather-API](https://github.com/bertuginal/Weather-API)
 
-
-
-<!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
-
-Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
-
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
