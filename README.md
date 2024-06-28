@@ -6,35 +6,26 @@
 This project is a weather API project that communicates with the OpenWeatherMap API based on user input. The purpose of this service is to display daily, weekly and monthly weather forecasts based on country and city information.
 
 ## Overview
-Overview;
-The Weather API service is designed to retrieve the required weather data by OpenWeatherMap by processing requests from users.
+The Weather API service is designed to retrieve the required weather data by OpenWeatherMap by processing requests from users. Spring Boot (Spring Web, Devtools, Lombok) technology and Maven library were used in this project.
 
 ## How does it work?
 * To access OpenWeatherMap's servers and retrieve weather data, a free Weather API Key is created by logging in to the OpenWeatherMap page.
+  
 * In order to learn the weather conditions of a particular place, country code and city name information is obtained from the user and latitude and longitude coordinates, called geo codes, are determined.
+  
 * Requests are sent back to OpenWeatherMap with the Rest Template class, which makes it easier for us to send requests back according to the specified latitude and longitude coordinates.
-* 
+  
+* From the request sent to OpenWeatherMap, the weather forecast, temperature and description are responded according to the coordinates specified by the user.
 
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue. Thanks to all the people have contributed to expanding this template!
+## Built With
 
-Use the `BLANK_README.md` to get started.
+* [![Java][Java-logo]][Java-url]
+* [![Spring][Spring-logo]][Spring-url]
+* [![Maven][Maven-logo]][Maven-url]
+* [![Rest][Rest-logo]][Rest-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+<b> JDK-21 was used in Java and Spring Web, Devtools, Lombok was used in Spring Boot. </b>
 
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Installation
 
@@ -157,8 +148,16 @@ Use this space to list resources you find helpful and would like to give credit 
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/othneildrew
 [product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
+
+[Java-logo]: https://img.shields.io/badge/java-000000?style=for-the-badge&logo=spring&logoColor=white
+[Java-url]: https://www.java.com/tr/
+[Spring-logo]: https://img.shields.io/badge/Spring_Boot-DD0031?style=for-the-badge&logo=springboot&logoColor=white
+[Spring-url]: https://spring.io/
+[Maven-logo]: https://img.shields.io/badge/maven-0769AD?style=for-the-badge&logo=jquery&logoColor=white
+[Maven-url]: https://maven.apache.org
+[Rest-logo]: https://img.shields.io/badge/Rest_Template-563D7C?style=for-the-badge&logo=rest&logoColor=white
+[Rest-url]: https://img.shields.io/badge/Rest_Template-563D7C?style=for-the-badge&logo=rest&logoColor=white
+
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
