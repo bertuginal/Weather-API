@@ -1,9 +1,10 @@
 
 <!-- ABOUT THE PROJECT -->
 # Weather API
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
 
 This project is a weather API project that communicates with the OpenWeatherMap API based on user input. The purpose of this service is to display daily, weekly and monthly weather forecasts based on country and city information.
+
+![logo](https://github.com/bertuginal/Weather-API/assets/73167951/114fcc84-e7f9-42b6-8721-043993cc8fe0)
 
 ---
 
