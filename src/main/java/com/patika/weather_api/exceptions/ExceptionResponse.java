@@ -1,4 +1,4 @@
-package com.patika.weather_conditions.exceptions;
+package com.patika.weather_api.exceptions;
 
 
 import lombok.AllArgsConstructor;
@@ -10,7 +10,8 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @Setter
 public class ExceptionResponse {
+
     private String message;
     private HttpStatus httpStatus;
-    private LocalDateTime dateTime;
+    private LocalDateTime localDateTime;
 }

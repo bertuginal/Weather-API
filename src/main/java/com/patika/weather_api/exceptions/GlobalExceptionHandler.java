@@ -1,4 +1,4 @@
-package com.patika.weather_conditions.exceptions;
+package com.patika.weather_api.exceptions;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -12,16 +12,16 @@ public class GlobalExceptionHandler {
 
     @ExceptionHandler
     public ResponseEntity<ExceptionResponse> handleException(WeatherException weatherException){
-        ExceptionResponse exceptionResponse=new ExceptionResponse(weatherException.getMessage(),weatherException.getHttpStatus(), LocalDateTime.now());
+        ExceptionResponse exceptionResponse = new ExceptionResponse(weatherException.getMessage(),weatherException.getHttpStatus(), LocalDateTime.now());
 
-        return new ResponseEntity<>(exceptionResponse,weatherException.getHttpStatus());
+        return new ResponseEntity<>(exceptionResponse, weatherException.getHttpStatus());
     }
 
     @ExceptionHandler
     public ResponseEntity<ExceptionResponse> handleException(Exception exception){
-        ExceptionResponse exceptionResponse=new ExceptionResponse(exception.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR, LocalDateTime.now());
+        ExceptionResponse exceptionResponse = new ExceptionResponse(exception.getMessage(), HttpStatus.INTERNAL_SERVER_ERROR, LocalDateTime.now());
 
-        return new ResponseEntity<>(exceptionResponse,HttpStatus.INTERNAL_SERVER_ERROR);
+        return new ResponseEntity<>(exceptionResponse, HttpStatus.INTERNAL_SERVER_ERROR);
     }
 
 

@@ -1,10 +1,10 @@
-package com.patika.weather_conditions;
+package com.patika.weather_api;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class WeatherConditionsApplicationTests {
+class WeatherApiApplicationTests {
 
 	@Test
 	void contextLoads() {

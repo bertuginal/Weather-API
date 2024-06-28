@@ -1,13 +1,13 @@
-package com.patika.weather_conditions;
+package com.patika.weather_api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class WeatherConditionsApplication {
+public class WeatherApiApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(WeatherConditionsApplication.class, args);
+		SpringApplication.run(WeatherApiApplication.class, args);
 	}
 
 }
