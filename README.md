@@ -1,6 +1,6 @@
 
 <!-- ABOUT THE PROJECT -->
-<h1 style="text-align:center;">Patika+ Weather API</h1>
+<h1>Patika+ Weather API</h1>
 
 This project is a weather API project that communicates with the OpenWeatherMap API based on user input. The purpose of this service is to display daily, weekly and monthly weather forecasts based on country and city information.
 
