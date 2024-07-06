@@ -39,7 +39,7 @@ The Weather API service is designed to retrieve the required weather data by Ope
 
 ## ↓ Installation ↓
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
+You can download the project, install and run it by following the instructions below.
 
 1. Get a free API Key at
    ```sh
